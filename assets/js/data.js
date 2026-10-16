@@ -4,22 +4,22 @@
    ===================================================================== */
 
 window.SITE = {
-  name: "Trevor Cho",
+  name: "Trevor Sen",
   initials: "TS", // shown in the logo monogram and favicon
   role: "Electrical Engineering Student",
-  location: "Fresno, California",
+  location: "Merced, California",
   tagline:
-    "I design embedded systems, build hardware that people can touch, and turn what I learn into workshops for other engineering students.",
-  email: "rcgames15523@gmail.com",
+    "My main focus is learning through doing and teaching afterward. My goal is to break into embedded systems and robotics.",
+  email: "trevor.kai.sen@gmail.com",
   // Replace with your own photo (square, at least 600x600). JPG/PNG/WebP all work.
   headshot: "assets/img/headshot.svg",
   resume: "", // e.g. "assets/Trevor-Cho-Resume.pdf" — leave empty to hide the button
   links: {
-    linkedin: "https://www.linkedin.com/in/your-handle",
-    github: "https://github.com/your-handle",
+    linkedin: "https://www.linkedin.com/in/trevor-k-sen",
+    github: "https://github.com/RCGames587",
     // Discord profile link format: https://discord.com/users/<your numeric user ID>
-    discord: "https://discord.com/users/000000000000000000",
-    discordHandle: "your_handle",
+    discord: "https://discord.com/users/446450851297624065",
+    discordHandle: "RCGames587",
   },
 };
 
@@ -29,22 +29,22 @@ window.SITE = {
    --------------------------------------------------------------------- */
 window.PROJECTS = [
   {
-    id: "dance-pad",
-    title: "Arcade Rhythm Dance Pad",
+    id: "rhythm-machine",
+    title: "Rhythm Arcade Machine",
     status: "current",
     featured: true,
     date: "2026 — present",
-    image: "assets/img/dance-pad.webp",
+    image: "assets/img/itgmania-logo.png",
     summary:
-      "A full-size, four-panel dance pad for StepMania built from wood, force-sensitive resistors, and a microcontroller that enumerates as a USB game controller.",
+      "A linux-based arcade cabinet that runs ITGmania and other related rhythm games. Ornated with a custom built cabinet and a custom dance pad controller using Arduino Hardware",
     role: "Design, fabrication, firmware",
-    stack: ["Arduino C++", "FSR sensors", "USB HID", "Woodworking"],
+    stack: ["Arduino C++", "FSR sensors", "Linux", "Woodworking", "Controllers"],
     highlights: [
-      "Per-panel sensitivity thresholds tuned over serial for consistent step detection",
-      "Debounced input pipeline for low-latency, fair gameplay",
+      "Created a custom UI for a seamless and digestible user experience ",
+      "Modularity to add future games and controllers",
       "Designed for reuse of salvaged materials to keep costs low",
     ],
-    links: [{ label: "Source", url: "https://github.com/your-handle" }],
+    links: [{ label: "Source", url: "https://github.com/RCGames587" }],
   },
   {
     id: "env-node",
@@ -317,49 +317,37 @@ void loop() {}`,
    --------------------------------------------------------------------- */
 window.INVOLVEMENTS = [
   {
-    id: "ieee",
-    name: "IEEE Student Branch",
-    short: "IEEE",
+    id: "robotics",
+    name: "Robotics Society at UC Merced",
+    short: "RS",
     status: "current",
-    dates: "2025 — present",
+    dates: "2026 — present",
     logo: "",
     summary:
-      "The university chapter of the Institute of Electrical and Electronics Engineers, which runs technical workshops, industry talks, and design competitions.",
+      "Robotics Society is a multidisciplinary organization of all things robotics. We are project-based and boast both small scale workshops and large scale projects",
     roles: [
-      { title: "Workshop Lead", dates: "2026 — present", notes: "Plan and run hands-on hardware workshops, many of which are on the [Tutorials](tutorials.html) page." },
-      { title: "General Member", dates: "2025 — 2026" },
+      { title: "Vice President", dates: "May 2026 — Present", notes: "Oversees club logistics, Plans and runs workshops, Supports projects as Electrical Consultant, Ensures club and project funding" },
+      { title: "General Member", dates: "January 2025 — May 2026", notes: "Plan and run hands-on hardware workshops" },
     ],
     highlights: [
       "Ran an intro microcontroller workshop for first-year students",
       "Helped organize a chapter hardware build night",
     ],
-    tags: ["Leadership", "Teaching", "Hardware"],
-    link: "https://www.ieee.org/membership/students",
+    tags: ["Robotics", "Teaching", "Hardware"],
+    link: "https://robotics-society-ucmerced.com/",
   },
   {
-    id: "robotics",
-    name: "Robotics & Embedded Systems Club",
-    short: "RES",
+    id: "tennis",
+    name: "UCM Club Tennis",
+    short: "CT",
     status: "current",
-    dates: "2025 — present",
+    dates: "2024 — present",
     logo: "",
-    summary: "A project-based club that builds robots and embedded systems for campus showcases and competitions.",
-    roles: [{ title: "Electrical Subteam Member", dates: "2025 — present", notes: "Sensor integration, wiring harnesses, and motor driver testing." }],
-    highlights: ["Designed a sensor wiring harness for the club's competition robot"],
-    tags: ["Embedded", "Teamwork", "Competition"],
+    summary: "A USTA club team that welcomes all skill levels, while also competing against nationally ranked clubs around North California",
+    roles: [{ title: "Treasurer", dates: "2026 — present", notes: "Secures funding, budgets current allocations, heads fundraising efforts" }],
+    highlights: ["Consistent team Captain"],
+    tags: ["Athletics", "Teamwork", "Competition"],
     link: "",
   },
-  {
-    id: "game-dev",
-    name: "Game Development Club",
-    short: "GDC",
-    status: "past",
-    dates: "2024 — 2025",
-    logo: "",
-    summary: "Student game jams and collaborative projects using Godot and other engines.",
-    roles: [{ title: "Member", dates: "2024 — 2025" }],
-    highlights: ["Built gameplay systems for two game-jam entries in Godot"],
-    tags: ["Godot", "Programming", "Collaboration"],
-    link: "",
-  },
+
 ];
