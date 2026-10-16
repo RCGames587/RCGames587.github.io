@@ -12,7 +12,7 @@ window.SITE = {
     "My main focus is learning through doing and teaching afterward. My goal is to break into embedded systems and robotics.",
   email: "trevor.kai.sen@gmail.com",
   // Replace with your own photo (square, at least 600x600). JPG/PNG/WebP all work.
-  headshot: "assets/img/headshot.svg",
+  headshot: "assets/img/headshot.jpg",
   resume: "", // e.g. "assets/Trevor-Cho-Resume.pdf" — leave empty to hide the button
   links: {
     linkedin: "https://www.linkedin.com/in/trevor-k-sen",
